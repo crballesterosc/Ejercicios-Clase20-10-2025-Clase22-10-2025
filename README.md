@@ -18,6 +18,7 @@
 <img width="362" height="95" alt="image" src="https://github.com/user-attachments/assets/29ff125d-0e18-48c6-b8f6-8d37c4352242" />
 
 # Problema 5(A) - Muestra un array y deja todos los ceros(0) al finaal del array
+<img width="322" height="77" alt="image" src="https://github.com/user-attachments/assets/d90c77f4-bb69-4a97-bb4b-9d2cae5c884e" />
 
 
 
