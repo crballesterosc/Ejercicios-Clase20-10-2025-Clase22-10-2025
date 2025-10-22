@@ -14,6 +14,10 @@
 # Problema 3(A) - Muestra en una lista,los resultados de multiplicar todos los elementos de dos arrays segun su posicion 
 <img width="358" height="96" alt="image" src="https://github.com/user-attachments/assets/63d22945-1f41-4b44-bdec-577fa1e6d2b9" />
 
+# Problema 4(A) - Muestra un array. lo ordena y imprime la mediana de ese array
+<img width="362" height="95" alt="image" src="https://github.com/user-attachments/assets/29ff125d-0e18-48c6-b8f6-8d37c4352242" />
+
+# Problema 5(A) - Muestra un array y deja todos los ceros(0) al finaal del array
 
 
 
