@@ -1,4 +1,4 @@
-print("Problemas - Arreglos")
+print("Problemas - Arreglos y Colecciones")
 print("Bienvenido a mis ejercicios - Autor: Cristian Ballesteros")
 a = 1
 
@@ -122,6 +122,7 @@ while(a <= 10):
         Problema6()
     else:
         print("Opcion no valida")
+
 
 
     
