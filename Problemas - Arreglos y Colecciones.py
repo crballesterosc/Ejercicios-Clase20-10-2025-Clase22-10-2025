@@ -107,12 +107,60 @@ while(a <= 10):
             print(f"La matriz: {matriz} no es magica :(")
 
     def Problema7():
-        list1 = {1: "25", 2: "46", 3: "10", 4 :"hola"}
-        values = list(list1.values())
-        tipo = type(values[0])
         
+        def Verificar_tipo(dic):
+            values = list(dic.values())
+            print(f"Tu diccionario es: {dic}")
+            print(f"Tu lista de valores es: {values}\n")
+            
+            if all(isinstance(v, type(values[0])) for v in values):
+                diORD = dict(sorted(dic.items(), key=lambda x: x[1]))
+                print(f"Todos los valores de la lista son del mismo tipo :D")
+                return diORD
+            else:
+                print("Los valores de tu lista no son del mismo tipo :(")
+                return f": {dic}"
+            
+        list1 = {"a": 25, "b": 46, "c": 10, "d":6}
+        result = Verificar_tipo(list1)
+        print(result)
+            
+    def Problema8():
         
+        def Diccionario1_Diccionario2_iguales(dic1,dic2):
+                                 
+            print(f"Tu diccionario #1 es: {dic1}")
+            print(f"Tu diccionario #2 es: {dic2}\n")
+            
+            for clave, valor in dic1.items():
+                if clave not in dic2 or dic2[clave] != valor:
+                    print(f"La pareja '{clave}: {valor}' no es encuentra en el diccionario #2")
+                    return False
+            
+            print("Todas las parejas clave:valor del diccionario #1 estan en el diccionario #2")
+            return True
         
+        dic1 = {"a":1, "b":2, "d":4}
+        dic2 = {"a":1, "b":2, "c":3, "d":4, "e":5}
+        result = Diccionario1_Diccionario2_iguales(dic1, dic2)
+        print(f"Resultado: {result}")
+        
+    def Problema9():
+        
+        def Mezclar_diccionarios(dic1, dic2):
+            print(f"Tu diccionario #1 es: {dic1}")
+            print(f"Tu diccionario #2 es: {dic2}")
+            dic_mezcl = dic1.copy()
+            dic_mezcl.update(dic2)
+            return dic_mezcl             
+        
+        val1 = {"a":1, "b":2, "c":3}
+        val2 = {"c":3, "e":5, "f":6}
+        
+        result = Mezclar_diccionarios(val1,val2)
+        print("Diccionario mezclado:", result)
+        
+       
     if(opcion == 1):
         Problema1()
     elif(opcion == 2):
@@ -125,6 +173,13 @@ while(a <= 10):
         Problema5()
     elif(opcion == 6):
         Problema6()
+    elif(opcion == 7):
+        Problema7()
+    elif(opcion == 8):
+        Problema8()
+    elif(opcion == 9):
+        Problema9()
     else:
         print("Opcion no valida")
+
 
