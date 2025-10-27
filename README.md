@@ -26,7 +26,7 @@
 <img width="420" height="104" alt="image" src="https://github.com/user-attachments/assets/fa1dab70-c8e4-4cff-b2e4-4d6d26592efa" />
 
 # Problema 1(B) - Muestra un diccionario, define si los valores de el diccionario son del mismo tipo y si lo son, crea un lista de todos los valores de forma ascendente
-<img width="396" height="97" alt="image" src="https://github.com/user-attachments/assets/3c94ddc4-76a5-4bb3-8df0-1e2a436b1c8a" />
+<img width="392" height="132" alt="image" src="https://github.com/user-attachments/assets/2dde6e46-1c80-414a-a166-a88e463d99b3" />
 
 # Problema 2(B) - Muestras dos diccionarios y verifica sin todas las parejas clave:valor del diccionario#1 estan en el diccionario#2
 <img width="542" height="132" alt="image" src="https://github.com/user-attachments/assets/ce882c03-9056-49d3-93e7-6ebd0ffa2329" />
